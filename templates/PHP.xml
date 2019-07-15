@@ -1,0 +1,49 @@
+<templateSet group="PHP">
+  <template name="tryc" value="try {&#10;    $END$&#10;} catch(\Exception $ex) {&#10;    &#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($condition$) {&#10;&#9;$END$&#9; &#10;}" description="if(){}" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifelse" value="if ($condition$) {&#10;&#9;$express$; &#10;} else {&#10;&#9;$END$;&#9;  &#10;}" description="if(){}else{}" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="express" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifelseif" value="if ($condition$) {&#10;&#9;$express$; &#10;} elseif ($condition$) {&#10;&#9;$express$;&#9;  &#10;} else {&#10;&#9;$END$&#10;}" description="if(){}else if(){}else{}" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="express" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="swi" value="switch ($GLOBALS$) {&#10;&#9;case $value$:&#10;&#9;&#9;$EXPRESS$;&#10;&#9;break;&#10;&#9;&#10;&#9;default:&#10;&#9;&#9;$END$;&#10;&#9;break;&#10;}" description="switch()case;break;" toReformat="true" toShortenFQNames="true">
+    <variable name="GLOBALS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPRESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="whi" value="while ($condition$) {&#10;&#9;$END$;&#10;}" description="while()" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function $funcname$ ($param$) {&#10;&#9;$END$;&#10;}" description="funciton (){}" toReformat="true" toShortenFQNames="true">
+    <variable name="funcname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

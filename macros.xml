@@ -1,0 +1,7 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Format and Save">
+      <shortuct text="shift control F" />
+    </macro>
+  </component>
+</application>

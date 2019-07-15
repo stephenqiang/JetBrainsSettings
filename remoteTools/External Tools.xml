@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="php-cs-fixer" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="NONE">
+    <exec>
+      <option name="COMMAND" value="/home/vagrant/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix ./ --config=./.php_cs" />
+      <option name="WORKING_DIRECTORY" value="/home/vagrant/Code/$ProjectName$" />
+    </exec>
+  </tool>
+</toolSet>
