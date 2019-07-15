@@ -1,0 +1,2 @@
+# JetBrainsSettings
+setting synchronization
