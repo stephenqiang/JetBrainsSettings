@@ -1,8 +1,9 @@
 <scheme name="Darcula_tyq" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="16" />
-  <option name="CONSOLE_FONT_NAME" value="Courier New" />
-  <option name="CONSOLE_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="Courier New" />
+  <option name="EDITOR_FONT_NAME" value="Courier 10 Pitch" />
+  <option name="CONSOLE_FONT_NAME" value="Courier 10 Pitch" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
