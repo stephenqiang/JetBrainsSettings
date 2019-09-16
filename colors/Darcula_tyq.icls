@@ -1594,6 +1594,11 @@
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
       </value>
     </option>
+    <option name="TWIG_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="3c3f41" />
+      </value>
+    </option>
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c7c8f5" />
