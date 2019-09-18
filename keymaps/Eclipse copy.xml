@@ -5,6 +5,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="Console.TableResult.CloneColumn" />
+  <action id="Console.TableResult.NextPage" />
   <action id="Diff.FocusOppositePane" />
   <action id="JumpToLastChange" />
   <action id="Macro.Format and Save">
