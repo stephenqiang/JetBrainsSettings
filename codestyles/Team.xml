@@ -1,4 +1,4 @@
-<code_scheme name="Team">
+<code_scheme name="Team" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <JSON>
     <option name="OBJECT_WRAPPING" value="0" />
@@ -6,11 +6,9 @@
   </JSON>
   <PHPCodeStyleSettings>
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
-    <option name="PHPDOC_THROWS_CALL_TREE_ANALYSIS_DEPTH" value="1" />
-    <option name="PHPDOC_THROWS_IGNORE_LOGIC_EXCEPTIONS" value="false" />
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
-    <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
+    <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
     <option name="PHPDOC_USE_FQCN" value="true" />
@@ -30,6 +28,7 @@
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+    <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="SPACE_AFTER_TYPE_CAST" value="true" />
     <option name="METHOD_PARAMETERS_WRAP" value="1" />
