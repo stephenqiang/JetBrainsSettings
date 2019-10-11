@@ -1,0 +1,157 @@
+<templateSet group="Henry">
+  <template name="rqorm" value="require_once SITE_ROOT . &quot;/modules/$END$.php&quot;;" description="'require_once' modules from SITE_ROOT" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ecsn" value="&lt;?php echo $_SERVER['SCRIPT_NAME'] ?&gt;" description="'echo' script name" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="ifor" value="for ($$$INDEX$ = 0; $$$INDEX$ &lt;= count($$$ARRAY$)-1; $$$INDEX$++) {&#10;    $$$VAR$ = $$$ARRAY$[$$$INDEX$];&#10;    $END$&#10;}" description="php for($i=0; $i&lt;$array; $i++)" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="" defaultValue="&quot;data&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="“v&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inc" value="include __DIR__ . &quot;/$END$&quot;;" description="'include' statement from __DIR__" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inco" value="include_once __DIR__ . &quot;/$END$&quot;;" description="'include_once' statement from __DIR__" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rfor" value="for ($$$INDEX$ = count($$$ARRAY$)-1; $$$INDEX$ &gt;= 0; $$$INDEX$--) {&#10;    $$$VAR$ = $$$ARRAY$[$$$INDEX$];&#10;    $END$&#10;}" description="php for($i=$array; $i&gt;=0; $i++)" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="" defaultValue="&quot;data&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;v&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rqr" value="require SITE_ROOT . &quot;/$END$&quot;;" description="'require' statement from SITE_ROOT" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rqor" value="require_once SITE_ROOT . &quot;/$END$&quot;;" description="'require_once' from SITE_ROOT" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rqocm" value="require_once __DIR__ . &quot;/modules/$END$.php&quot;;" description="'require_once' modules from __DIR__" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rqc" value="require __DIR__ . &quot;/$END$&quot;;" description="'require' from __DIR__" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rqoc" value="require_once __DIR__ . &quot;/$END$.php&quot;;" description="'require_once' from __DIR__" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inr" value="include SITE_ROOT . &quot;/$END$&quot;;" description="'include' from SITE_ROOT" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inro" value="include_once SITE_ROOT . &quot;/$END$&quot;;" description="'include' from SITE_ROOT" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="stv" value="&lt;?= $$$VAR$ ?&gt;" description="short_open_tag for &lt;?= $var ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="var" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stif" value="&lt;? if($$$EXP1$): ?&gt; &#10;$STR1$&#10;&lt;? elseif($$$EXP2$): ?&gt; &#10;$STR2$&#10;&lt;? else: ?&gt; &#10;$STR3$&#10;&lt;? endif ?&gt;" description="short_open_tag for &lt;? if ?&gt; ..." toReformat="false" toShortenFQNames="true">
+    <variable name="EXP1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXP2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stfor" value="&lt;? for($$$VAR$=$BEGIN$; $$$VAR$&lt;$ENDI$; $$$VAR$++): ?&gt;&#10;$END$&#10;&lt;?= $$$VAR$ ?&gt;&#10;&lt;? endfor ?&gt;" description="short_open_tag for &lt;? for ?&gt;..." toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="i" alwaysStopAt="true" />
+    <variable name="BEGIN" expression="" defaultValue="0" alwaysStopAt="true" />
+    <variable name="ENDI" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stfore" value="&lt;? foreach($$$ARR$ as $$$VAR$): ?&gt;&#10;$END$&#10;&lt;?= $$$VAR$ ?&gt;&#10;&lt;? endforeach ?&gt;" description="short_open_tag for &lt;? foreach($arr as $var) ?&gt;..." toReformat="false" toShortenFQNames="true">
+    <variable name="ARR" expression="" defaultValue="arr" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="var" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stforek" value="&lt;? foreach($$$ARR$ as $$$KEY$ =&gt; $$$VAR$): ?&gt;&#10;$END$&#10;&lt;?= $$$KEY$ ?&gt;=&lt;?= $$$VAR$ ?&gt;&#10;&lt;? endforeach ?&gt;" description="short_open_tag for &lt;? foreach($arr as $key =&gt; $var) ?&gt;..." toReformat="false" toShortenFQNames="true">
+    <variable name="ARR" expression="" defaultValue="arr" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="key" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="var" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stw" value="&lt;? while($$$VAR$ $COND$ $COMP$): ?&gt;&#10;$END$&#10;&lt;? $$$VAR$++ ?&gt; &#10;&lt;? endwhile ?&gt;" description="short_open_tag for &lt;? while ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="i" alwaysStopAt="true" />
+    <variable name="COND" expression="" defaultValue="&lt;" alwaysStopAt="true" />
+    <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stsw" value="&lt;? switch($$$VAR$):&#10;    case $COMP1$:&#10;        echo '$STR1$'; break;&#10;    case $COMP2$:&#10;        echo '$STR2$'; break;&#10;    case $COMP3$:&#10;        echo '$STR3$'; break;&#10;    default:&#10;        echo '$STR4$';&#10;endswitch ?&gt;" description="short_open_tag for &lt;? switch ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMP1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMP2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMP3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STR4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="stelf" value="&lt;? elseif($$$EXP2$): ?&gt; &#10;$END$" description="short_open_tag for &lt;? elseif ?&gt; ..." toReformat="false" toShortenFQNames="true">
+    <variable name="EXP2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ste" value="&lt;? $END$ ?&gt;" description="short_open_tag for &lt;? $var ?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
