@@ -1,4 +1,8 @@
 <keymap version="1" name="Eclipse copy 1" parent="Eclipse">
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="JumpToLastChange" />
   <action id="NextTab">
